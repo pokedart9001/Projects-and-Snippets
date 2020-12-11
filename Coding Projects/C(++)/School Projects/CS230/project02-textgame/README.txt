@@ -1,0 +1,3 @@
+My game satifies all of the requirements of the project: it has 8 rooms, some rooms contain items, it has an avatar with an inventory (the Player struct), the commands look, go, take, use, and drop are all implemented (placed separately into functions within player.c) and work as intended, some items alter the state of a room, and the game has a winning state. The program also uses structs to represent objects, pointers, dynamic allocation with malloc, and deallocation of memory. Generally speaking, the game runs as intended without any errors, as far as I am aware.
+
+Demonstration: https://youtu.be/S-akSoBHvLo

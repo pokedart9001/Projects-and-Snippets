@@ -1,0 +1,19 @@
+Name: Noah Levitt
+Bot: N.GAGE
+
+-- Evaluation Function --
+For my evaluation() function, I decided to use a custom variant of the score() function, with the core difference being the modification of the streaks() function such that 0's on the board are counted as both a 1 and a -1 at the same time for the purpose of chaining them with other 1's or -1's. The theory behind this is that it allows a state to be read somewhat as if it is a terminal state, while also considering the possibility of any empty piece being a 1 or -1 down the line. I have not done much testing on specific cases with the limited-depth agent outside of the included test cases, although I will acknowledge that the agent did not choose the correct move as P1 for the test board "choose_middle", likely because it saw moving to the right side as potentially being able to simultaneously block P2 on the right and score in the middle. However, as a heuristic function, of course the evaluation() function is not going to be perfect, and thus there will be some niche cases in which a wrong move is made. I was instead focused on the agent's effectiveness against a random player, and in running multiple games on various board sizes with a depth limit of 2 while keeping track of wins/losses/ties, the heuristic agent consistently won most of the time for each batch. Thus, I'm confident that I've at least managed to come up with a decent evaluation() function.
+
+
+-- Test Cases --
+choose_middle: The board is laid out such that P1, goes first and the middle column would allow P1 to secure a run of 6 and a run of 5 by moving there. If P1 does not choose the middle column and instead chooses the right column — the only other one available — then P2, assuming optimal play, would pick the middle column to block P1 from being able to score those runs. Thus, the middle column is the correct first move.
+
+choose_middle_2: The board is laid out such that there are two possible moves for P1: the middle column, and the column to the left of it. The middle column would secure P1 two additional runs of 3 and block P2 from a run of 3 on the top row. Thus, the middle column is the correct first move.
+
+small_right: The board is laid out such that P1 is to choose either the left or right column. The right column would secure P1 a run of 3 while the left column would not increase the score. Thus, the right column is supposed to be the correct move — however, it turns out that both moves actually have the same value, since moving in the right column would leave P1 and P2 each with a run of 3, which cancel out for a score of 0, while moving in the left column would leave both P1 and P2 with no runs and thus a score of 0.
+
+test_4x4: The board is in a near-endgame state in which it is P1's turn. P1 has 3 possible moves: the left column, the left-middle column, and the right column. As discussed during the lectures, the game should end with a score of -18, since the three successor states to the current one should have minimax utility values of -18, -18, and -20, and of course the maximizing agent should pick one of the two -18 branches. Thus, the right column is the only incorrect first move.
+
+
+-- Notes --
+Not much to say here — I've tested the Minimax and Pruning agents on the included test cases with and without depth limits; I know 100% that the Minimax agent works correctly, and I referenced the algorithm for the Alpha-Beta search directly from the textbook so I'm pretty confident about that. Other that the one case I mentioned above in my description of the evaluation() function, each of the test cases worked exactly as expected. And as I stated in that section, the depth-limited agent was consistently able to beat a random player much more often than not.

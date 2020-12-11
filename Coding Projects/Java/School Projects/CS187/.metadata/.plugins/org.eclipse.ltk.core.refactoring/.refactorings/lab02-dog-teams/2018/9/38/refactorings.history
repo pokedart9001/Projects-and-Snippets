@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;before&apos; in &apos;DogTeam.insertAfter(...)&apos; to &apos;node&apos;&#x0A;- Original project: &apos;lab02-dog-teams&apos;&#x0A;- Original element: &apos;DogTeam.insertAfter(Dog, String).before&apos;&#x0A;- Renamed element: &apos;before&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;before&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{DogTeam.java[DogTeam~insertAfter~QDog;~QString;@before!1760!1783!1770!1775!QLLDogNode;!0!false" name="node" references="true" stamp="1537199072178" version="1.0"/>
+</session>

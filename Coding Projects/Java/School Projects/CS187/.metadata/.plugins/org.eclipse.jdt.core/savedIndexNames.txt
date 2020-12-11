@@ -1,0 +1,25 @@
+INDEX VERSION 1.131+C:\Users\Noah\Desktop\My Stuff\Coding Projects\Java\School Projects\CS187\.metadata\.plugins\org.eclipse.jdt.core
+3584275168.index
+761075158.index
+1766677459.index
+2289902196.index
+1064241518.index
+2001336064.index
+413641486.index
+1858908030.index
+611282178.index
+1153083575.index
+2135381727.index
+398050547.index
+3468052664.index
+2726697559.index
+1560805767.index
+1426256937.index
+3422300535.index
+1163657682.index
+2426633294.index
+3834627979.index
+792234977.index
+428073394.index
+2197356810.index
+719711453.index

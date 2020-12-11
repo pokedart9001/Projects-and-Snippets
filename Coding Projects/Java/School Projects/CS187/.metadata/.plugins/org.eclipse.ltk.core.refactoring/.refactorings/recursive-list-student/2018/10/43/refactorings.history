@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;recursive-list-student&apos;&#x0A;- Original project: &apos;recursive-list-student&apos;&#x0A;- Original element: &apos;structures.RecursiveList.java&apos;" description="Delete element" element1="/src&lt;structures{RecursiveList.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1540581865765" subPackages="false" version="1.0"/>
+</session>

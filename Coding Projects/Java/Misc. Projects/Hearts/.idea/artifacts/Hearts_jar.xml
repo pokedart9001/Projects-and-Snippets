@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Hearts:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Hearts_jar</output-path>
+    <root id="archive" name="Hearts.jar">
+      <element id="module-output" name="Hearts" />
+    </root>
+  </artifact>
+</component>

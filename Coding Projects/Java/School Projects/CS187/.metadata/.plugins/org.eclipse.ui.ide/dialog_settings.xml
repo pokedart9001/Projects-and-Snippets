@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/lab12_graph_search.zip"/>
+		<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/lab02-dog-teams"/>
+		<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/guessme-array-student"/>
+		<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/lab07-deque-student"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/Users/noahlevitt/Desktop/Lab13Hashing.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/lab10-review.zip"/>
+			<item value="/Users/noahlevitt/Desktop/lab08-deque-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/lab07-deque-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/BigO.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/lab02-dog-teams.zip"/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="387" key="DIALOG_X_ORIGIN"/>
+		<item value="216" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

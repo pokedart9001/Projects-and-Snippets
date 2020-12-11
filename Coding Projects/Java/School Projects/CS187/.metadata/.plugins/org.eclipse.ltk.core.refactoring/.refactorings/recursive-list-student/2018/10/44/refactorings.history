@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;structures.RecursiveListIterator&apos; to &apos;NodeIterator&apos;&#x0A;- Original project: &apos;recursive-list-student&apos;&#x0A;- Original element: &apos;structures.RecursiveListIterator&apos;&#x0A;- Renamed element: &apos;structures.NodeIterator&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RecursiveListIterator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;structures{RecursiveListIterator.java[RecursiveListIterator" matchStrategy="1" name="NodeIterator" qualified="false" references="true" similarDeclarations="false" stamp="1540756781808" textual="false" version="1.0"/>
+</session>

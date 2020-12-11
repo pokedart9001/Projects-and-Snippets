@@ -1,0 +1,3 @@
+http://snap.berkeley.edu/snapsource/snap.html
+
+To view custom block libraries, select the respective XML files in the "Import" menu.

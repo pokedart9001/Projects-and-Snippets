@@ -1,0 +1,43 @@
+P(A|T) = P(A)
+P(T|A) = P(T)
+
+P(T|B) != P(T)
+P(A|B) != P(A)
+
+P(B=true, A=true, T=night) = 0.060
+P(B=true, A=false, T=night) = 0.196
+P(B=false, A=true, T=afternoon) = 0.068
+P(B=false, A=false, T=morning) = 0.007
+
+P(T=night) = 0.4
+P(A=true) = 0.3
+P(A=false) = 0.7
+
+P(A=true, T=evening) = 0.09
+P(T=evening) = 0.3
+
+P(B=false|A=true, T=evening) = 0.9
+P(B=false, A=true, T=evening) = 0.081
+P(B=true|A=true, T=evening) = 0.1
+P(B=true, A=true, T=evening) = 0.009
+
+P(B=true, T=evening) = 0.072
+
+P(A=true) + P(T=afternoon)P(A=false) = 0.475
+P(T=afternoon) = 0.25
+P(T=morning) = 0.05
+
+P(B=true|A=false, T=afternoon) = 0.2
+P(A=false, T=afternoon) = 0.175
+P(B=true, A=false, T=afternoon) = 0.035
+
+P(B=false|A=false, T=afternoon) = 0.8
+P(B=false, A=false, T=afternoon) = 0.14
+
+P(B=false) = 0.593
+P(B=true) = 0.407
+
+P(A=true, T=morning|B=true) = 0.03
+P(B=true, A=true, T=morning) = 0.01221
+
+P(T=morning|B=false, A=true) = 0.027972

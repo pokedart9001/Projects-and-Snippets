@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;structures.RedBlackTree.fixColors(...)&apos; to &apos;checkBSTProperty&apos;&#x0A;- Original project: &apos;bst-redblack-student&apos;&#x0A;- Original element: &apos;structures.RedBlackTree.fixColors(...)&apos;&#x0A;- Renamed element: &apos;structures.RedBlackTree.checkBSTProperty(...)&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;fixColors&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;structures{RedBlackTree.java[RedBlackTree~fixColors~QBSTNode\&lt;QT;&gt;;" name="checkBSTProperty" references="true" stamp="1541399603150" version="1.0"/>
+</session>

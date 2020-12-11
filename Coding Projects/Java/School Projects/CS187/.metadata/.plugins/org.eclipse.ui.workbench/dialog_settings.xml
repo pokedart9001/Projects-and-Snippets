@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="195"/>
+		<item key="DIALOG_Y_ORIGIN" value="67"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="dialogHeight" value="-1"/>
+		<item key="dialogWidth" value="-1"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="PreferencesImportWizard">
+		<item key="" value="/Users/noahlevitt/Downloads/theme-4967.epf"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/noahlevitt/Downloads/theme-4967.epf"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/search-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/heap-queues-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/bst-redblack-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/recursive-list-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/queues-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/recursion-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/postandinfix-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/sets-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/guessme-list-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/guessme-array-student.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/guessme-array-student/Untitled.zip"/>
+			<item value="/Users/noahlevitt/Desktop/My Stuff/Coding Projects/Java/School Projects/CS187/fizzbuzz-student.zip"/>
+		</list>
+	</section>
+</section>

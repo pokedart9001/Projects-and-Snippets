@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Disc12LPHashing&apos; to &apos;lab13-hashing&apos;" description="Rename resource &apos;Disc12LPHashing&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Disc12LPHashing" name="lab13-hashing" stamp="1544458477869" updateReferences="true"/>
+</session>

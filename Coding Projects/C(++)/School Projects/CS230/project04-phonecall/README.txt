@@ -1,0 +1,9 @@
+At the start of main(), after grabbing the number of desired threads from argv (let's call that 'n'), I initialize two global semaphores: 'connected_lock', a binary semaphore (a semaphore with a maximum of 1), and 'operators', a counting semaphore with a maximum of NUM_OPERATORS (3). I then create n threads via a for() loop, which each call the phonecall() function. By the way, each of these initialization statements are error-checked.
+
+In phonecall(), a static int variable 'connected' is used to keep track of the number of threads "using the phone lines" at a time. First, the thread initializes an int 'caller' with its unique ID (between 1-n), kept track of by the global int variable 'next_id' (note that this action does not need to be locked since 'next_id' is only accessed once per thread such that doing so doesn't affect the program flow).
+
+If the ID is less than or equal to 240, the thread enters a critical section with 'connected_lock', so that it will only check/modify 'connected' if no other thread is currently doing so, and repeatedly attempts to access a line until connected < NUM_LINES (5), after which it increments 'connected' and exits the critical section. Then, the thread enters another critical section with 'operators', so that it will only speak with an operator if less than NUM_OPERATORS threads are in that section.
+
+After printing out a few messages with its respective "caller" ID and sleeping for a few seconds to simulate a phone call, the thread then exits the critical 'operators' section, enters one more 'connected_lock' critical section to decrement 'connected', exits that critical section, and returns. Finally, after waiting for every thread to return, the main thread destroys the two semaphores and returns.
+
+Demo: https://youtu.be/fJpm5gA-XMc 
